@@ -1,0 +1,125 @@
+/*Margins*/
+.heading-margin{
+margin-top: 100px;
+}
+
+.best-sellers{
+    padding-top: 40px;
+}
+
+.picture-position{
+    height:200px;
+    object-fit: contain;
+}
+
+.sidebar {
+    height: calc(100vh - 100px);
+    border-radius: 25px;
+    padding: 20px;
+    border: solid black 1px;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    background-color: #2B3035;
+    overflow-y: auto;
+}
+
+.list-item {
+    border: 1px solid #ccc; /* Add a light gray border */
+    padding: 10px; /* Add some padding around the content */
+}
+
+.sidebar-item{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.bckg-light-blue{
+    background-color: #B1DAD4;
+    border-radius: 25px;
+    border: solid black 1px;
+}
+
+.bckg-color{
+
+}
+.bckg-color img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.navbar-margin{
+    margin-top: 10px;
+}
+
+.navbar-custom {
+    background-color: #B1DAD4;
+    border: solid black 1px;
+    border-radius: 25px;
+}
+@media  screen and (max-width: 991px) {
+    .navbar-custom{
+        height: min-content;
+    }
+}
+
+.min-cont{
+    height: min-content;
+}
+.ml-5{
+    margin-left: 20px;
+}
+
+.sidebar-text-color{
+    color:black;
+}
+
+.general-button-color{
+    background-color: #B1DAD4;
+}
+
+.delete-button-color{
+    background-color: #FF5555;
+}
+
+.mr-5{
+    margin-right: 15px;
+}
+
+.link-help{
+    font-size: 13px;
+    color: black;
+}
+
+/*Login.html styles */
+.main-margin{
+    margin-top: 110px;
+}
+
+.sit-picture{
+    overflow: clip;
+
+}
+.sit-picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 80%;
+}
+
+.zind{
+    z-index: 1000;
+}
+/*Knihy.html*/
+
+#list-example {
+    max-height: calc(100vh - 140px); /* Use similar calculation for height */
+    overflow-y: auto;
+}
+.admin-wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 70px 1fr;
+}
+
+.overfl{
+    overflow: hidden;
+}
